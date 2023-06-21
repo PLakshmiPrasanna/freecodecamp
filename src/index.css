@@ -1,0 +1,148 @@
+*{
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+#quote-box {
+/*   border-radius: 2px;
+  box-sizing: border-box;
+  color: var(--text-color);
+  padding: 20px 20px 4rem;
+  position: relative;
+  width: 50vw; */
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.qt-container{
+  height: 100vh;
+  width: 100vw;
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ 
+}
+
+
+
+#quote-box #author:before {
+  content: "-";
+  margin-right: 10px;
+}
+
+#quote-box #author {
+
+  text-align: right;
+  
+}
+
+/* #quote-box .button {
+  border: none;
+  border-radius: 2px;
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  cursor: pointer;
+  font-family: "Arima Madurai", cursive;
+  font-size: 1rem;
+  padding: 5px 20px;
+  position: absolute;
+  bottom: 20px;
+  text-decoration: none;
+} */
+
+#quote-box #tweet-quote {
+  left: 20px;
+}
+
+#quote-box #new-quote {
+  right: 20px;
+}
+
+.markdownContainer{
+  width: 100%;
+  display: flex;
+  flex-direction: column;;
+  align-items: center;;
+}
+.editor{
+  width: 50%;
+  background-color: gray;
+
+}
+
+.preview{
+  margin: 20px;
+  width: 80%;
+  background-color: gray;
+ 
+}
+
+ 
+.dm-container{
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  flex-direction: column;
+
+  height: 100vh;
+  width: 100vw;
+}  
+#drum-machine{
+  
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  
+  height: 400px;
+  width: 700px;
+  background-color: lightgray ;
+  border : 2px solid orange;
+  padding: 20px;
+  
+}
+
+#displayDiv{
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+  justify-content: center;
+  align-items: center; 
+
+}
+
+.keysDisplay{
+  
+  width: 60%;
+  height: 90%;
+  display: grid;
+  grid-template-columns: auto auto auto  ;
+  gap: 30px;
+}
+.displayText{
+  margin: 20px;
+}
+.drum-pad{
+  
+  padding: 30px;
+  text-align:center;
+  background-color: gray;
+  border-radius: 10px;
+
+}
+
+.bankOne{
+  background: linear-gradient(90deg, black, red);
+}
+.bankTwo{
+  background: linear-gradient(90deg,  blue, black);
+}
+
+button.btn{
+  height: 30px;
+  width: 60px;
+  border: 1px solid black;
+}
