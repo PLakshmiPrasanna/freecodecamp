@@ -1,27 +1,22 @@
 body{
     font-size: 30px;
+    color: whitesmoke;
 }
 
-#clock-box {
-    /* background-color: teal;
-    width: 60%;
-    height: 50%;
+#clock-container{
+    height: 100vh;
+    width: 100vw;
+    background-color: teal;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    border: 1px solid red; */
 }
 
-#clock-container{
-   
-
-    height: 100vh;
-    width: 100vw;
-   
+#clock-box {
+    width: 40%;
+    height: 80%;
 }
-
-
 
 #label{
     display: flex;
@@ -34,14 +29,11 @@ body{
     justify-content: center;
     gap: 20px;
 }
-
-#break, #session {
-    min-width: 300px;
+#timer{
+    margin: 20px auto;
+    width: 200px;
 }
-
-#timer {
-    border: 1px solid grey;
-    border-radius:  3px;
-    width: 500px;
-    
+#timer-box{
+    border: 5px solid grey;
+    border-radius:  10px;
 }

@@ -72,3 +72,5 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 drum machine - https://codepen.io/lprasanna/pen/PoxNGLp
 calculator- https://codepen.io/lprasanna/pen/wvQWVaw?editors=1111
+25+5 clock: npm install react-icons
+  -https://codepen.io/lprasanna/pen/jOQMbWd
